@@ -10,3 +10,8 @@ const result = document.querySelector('.result');
 let cpuScoreVal = 0;
 let playerScoreVal = 0;
 
+function play() {
+    console.log(this)
+}
+
+weapons.forEach(weapon => weapon.addEventListener('click', play));
