@@ -25,7 +25,7 @@ function play() {
     if (cpuChoice === playerChoice) {
         roundResults.textContent = `Its a draw! ${playerChoice} = ${cpuChoice}`;
     }
-      //win
+    //win
     if ((playerChoice === 'rock' && cpuChoice === 'scissors') ||
         (playerChoice === 'paper' && cpuChoice === 'rock') ||
         (playerChoice === 'scissors' && cpuChoice === 'paper')) {
@@ -33,6 +33,15 @@ function play() {
         playerScoreVal++;
         playerScore.textContent = playerScoreVal;
         roundResults.textContent = `you win! ${playerChoice} > ${cpuChoice}`;
+    }
+    //lose
+    if ((playerChoice === 'scissors' && cpuChoice === 'rock') ||
+        (playerChoice === 'rock' && cpuChoice === 'paper') ||
+        (playerChoice === 'paper' && cpuChoice === 'scissors')) {
+        
+        cpuScoreVal++;
+        cpuScore.textContent = cpuScoreVal;
+        roundResults.textContent = `you lose! ${playerChoice} < ${cpuChoice}`;
     }
 }
 
