@@ -67,3 +67,8 @@ main {
     
     margin-bottom: 1em;
 }
+
+.score-board.one {
+    display: flex;
+    justify-content: end;
+}
