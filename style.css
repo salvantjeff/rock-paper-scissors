@@ -47,4 +47,10 @@ main {
     height: 100vh;
     padding: 2em 1em 0;
     background-color: #FF4949;
+    text-align: center;
+}
+
+/* MAIN AREA -- DETAILS */
+.details {
+    
 }
