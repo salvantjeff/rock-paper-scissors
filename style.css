@@ -112,6 +112,12 @@ main {
     border-radius: 0.6em;
 }
 
+.rock:hover,
+.paper:hover,
+.scissors:hover {
+    background: #2196f3;
+}
+
 /* FOOTER */
 footer {
     background-color: #64b5f6;
