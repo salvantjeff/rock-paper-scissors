@@ -64,6 +64,6 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: clamp(5px, 3vw, 2em);
-
+    
     margin-bottom: 1em;
 }
