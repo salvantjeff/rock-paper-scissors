@@ -83,4 +83,8 @@ main {
     padding: 1em 2em 0.8rem;
     width: clamp(12ch, 15vw, 20ch);
     min-height: clamp(100px, 15vw, 150px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
