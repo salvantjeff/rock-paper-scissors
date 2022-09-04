@@ -118,3 +118,8 @@ footer {
     padding: 1em;
     text-align: center;
 }
+
+/* MODAL */
+.modal {
+    background-color: #1982c4;
+}
