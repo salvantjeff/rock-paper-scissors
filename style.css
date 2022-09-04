@@ -77,3 +77,7 @@ main {
     display: flex;
     justify-content: start;
 }
+
+.box {
+    background-color: #c8b6ff;
+}
