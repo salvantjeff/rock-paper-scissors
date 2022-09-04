@@ -127,6 +127,7 @@ footer {
     margin: auto;
     text-align: center;
     border: none;
+    box-shadow: 0 0 10px #90caf9;
 }
 
 .modal::backdrop {
