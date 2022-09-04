@@ -10,6 +10,12 @@ const result = document.querySelector('.result');
 let cpuScoreVal = 0;
 let playerScoreVal = 0;
 
+const getComputerChoice = () => {
+    const choice = ['rock','paper','scissors'];
+    const rand = Math.floor(Math.random() * 3);
+    return choice[rand];
+}
+
 function play() {
     console.log(this)
 }
