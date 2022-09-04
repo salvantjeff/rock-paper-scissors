@@ -19,6 +19,12 @@ const getComputerChoice = () => {
 function play() {
     let playerChoice = this.dataset.val;
     let cpuChoice = getComputerChoice();
+
+    // Rules of game:
+    // Tie
+    if (cpuChoice === playerChoice) {
+        roundResults.textContent = `Its a draw! ${playerChoice} = ${cpuChoice}`;
+    }
 }
 
 weapons.forEach(weapon => weapon.addEventListener('click', play));
