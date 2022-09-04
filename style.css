@@ -72,3 +72,8 @@ main {
     display: flex;
     justify-content: end;
 }
+
+.score-board.two {
+    display: flex;
+    justify-content: start;
+}
