@@ -43,6 +43,11 @@ function play() {
         cpuScore.textContent = cpuScoreVal;
         roundResults.textContent = `you lose! ${playerChoice} < ${cpuChoice}`;
     }
+    //End game if player or cpu score reaches 5
+    if (cpuScoreVal >= 5 || playerScoreVal >= 5) {
+        result.textContent = cpuScoreVal === 5 ? 'you lose!' : 'you win!';
+        modal.showModal();
+    } 
 }
 
 weapons.forEach(weapon => weapon.addEventListener('click', play));
