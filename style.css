@@ -122,4 +122,6 @@ footer {
 /* MODAL */
 .modal {
     background-color: #1982c4;
+    border-radius: 0.8em;
+    padding: 2em;
 }
