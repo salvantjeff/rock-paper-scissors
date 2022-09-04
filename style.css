@@ -45,4 +45,5 @@ header {
 /* MAIN AREA */
 main {
     height: 100vh;
+    padding: 2em 1em 0;
 }
