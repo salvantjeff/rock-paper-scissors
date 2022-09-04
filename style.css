@@ -100,7 +100,7 @@ main {
     display: grid;
     grid-template-columns: repeat(3, minmax(85px, 200px));
     justify-content: center;
-    background-color: #bdbdbd;
+    
     gap: clamp(1px, 1vw, 1em);
     padding: 1em;
 }
