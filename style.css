@@ -104,3 +104,8 @@ main {
     gap: clamp(1px, 1vw, 1em);
     padding: 1em;
 }
+
+.weapons > * {
+    min-height: calc(100px + 5vw);
+    max-height: 200px;
+}
