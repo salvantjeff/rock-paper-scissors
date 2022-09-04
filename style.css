@@ -111,3 +111,8 @@ main {
     max-height: 200px;
     border-radius: 0.6em;
 }
+
+/* FOOTER */
+footer {
+    background-color: #64b5f6;
+}
