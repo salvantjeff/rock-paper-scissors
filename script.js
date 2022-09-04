@@ -25,6 +25,15 @@ function play() {
     if (cpuChoice === playerChoice) {
         roundResults.textContent = `Its a draw! ${playerChoice} = ${cpuChoice}`;
     }
+      //win
+    if ((playerChoice === 'rock' && cpuChoice === 'scissors') ||
+        (playerChoice === 'paper' && cpuChoice === 'rock') ||
+        (playerChoice === 'scissors' && cpuChoice === 'paper')) {
+
+        playerScoreVal++;
+        playerScore.textContent = playerScoreVal;
+        roundResults.textContent = `you win! ${playerChoice} > ${cpuChoice}`;
+    }
 }
 
 weapons.forEach(weapon => weapon.addEventListener('click', play));
