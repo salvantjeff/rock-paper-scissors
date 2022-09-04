@@ -50,4 +50,12 @@ function play() {
     } 
 }
 
+function newGame() {
+    cpuScoreVal = 0;
+    playerScoreVal = 0;
+    playerScore.textContent = playerScoreVal;
+    cpuScore.textContent = cpuScoreVal;
+    return play;
+}
+
 weapons.forEach(weapon => weapon.addEventListener('click', play));
