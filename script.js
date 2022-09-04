@@ -17,7 +17,8 @@ const getComputerChoice = () => {
 }
 
 function play() {
-    console.log(this)
+    let playerChoice = this.dataset.val;
+    let cpuChoice = getComputerChoice();
 }
 
 weapons.forEach(weapon => weapon.addEventListener('click', play));
