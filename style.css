@@ -32,3 +32,9 @@ body {
 .container {
     min-height: 100vh;  
 }
+
+/* HEADER AREA */
+header {
+    background-color: #541690;
+    color: white;
+}
