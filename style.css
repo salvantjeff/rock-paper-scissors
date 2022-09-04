@@ -58,3 +58,10 @@ main {
 .message {
     margin-bottom: 1rem;
 }
+
+/* MAIN AREA -- SCORES */
+.scores {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(5px, 3vw, 2em);
+}
