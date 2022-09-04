@@ -6,3 +6,7 @@ const weapons = document.querySelectorAll('[data-val]');
 const modal = document.querySelector('.modal');
 const playAgain = document.querySelector('.play-again');
 const result = document.querySelector('.result');
+
+let cpuScoreVal = 0;
+let playerScoreVal = 0;
+
