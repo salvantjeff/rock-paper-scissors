@@ -128,3 +128,8 @@ footer {
     text-align: center;
     border: none;
 }
+
+.modal::backdrop {
+    background: black;
+    opacity: 0.5;
+}
