@@ -106,6 +106,7 @@ main {
 }
 
 .weapons > * {
+    background-color: #64b5f6;
     min-height: calc(100px + 5vw);
     max-height: 200px;
 }
