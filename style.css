@@ -109,4 +109,5 @@ main {
     background-color: #64b5f6;
     min-height: calc(100px + 5vw);
     max-height: 200px;
+    border-radius: 0.6em;
 }
