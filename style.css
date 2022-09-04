@@ -88,3 +88,9 @@ main {
     flex-direction: column;
     justify-content: space-between;
 }
+
+.player-score,
+.cpu-score {
+  font-size: clamp(2rem, 6vw, 5rem);
+  font-weight: 600;
+}
