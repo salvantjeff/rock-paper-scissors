@@ -15,3 +15,9 @@ img {
     object-fit: cover;
     object-position: center;
 }
+
+/* Button defaults */
+button {
+    font: inherit;
+    border: none;
+}
