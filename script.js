@@ -60,5 +60,6 @@ function newGame() {
 
 weapons.forEach(weapon => weapon.addEventListener('click', play));
 playAgain.addEventListener('click', () => {
-
-})
+    modal.close();
+    return newGame();
+});
